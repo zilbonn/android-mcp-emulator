@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "android-emulator": {
+      "command": "python",
+      "args": [
+        "/absolute/path/to/android_emulator_mcp/server.py"
+      ],
+      "env": {
+        "ANDROID_HOME": "/path/to/Android/Sdk",
+        "PATH": "/path/to/Android/Sdk/platform-tools:${PATH}"
+      }
+    }
+  }
+}
